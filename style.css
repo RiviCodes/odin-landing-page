@@ -1,0 +1,299 @@
+/* CSS */
+
+/* Imported fonts */
+
+/* Outfit */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+/* Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+/* Shippori Antique */
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+/* Saira Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+/* Roboto Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* Pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Courgette */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* M PLUS 2 */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+/* Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Flexbox test */
+
+/*
+* {
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+}
+*/
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 200px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #E5E7EB;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+/* Main 1 */
+
+.main-1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1F2937;
+  padding: 78px 0;
+}
+
+.modal-colum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modal-header {
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  color: #F9FAF8;
+  max-width: 400px;
+  margin-bottom: 4px;
+}
+
+.modal-subtext {
+  width: 400px;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #E5E7EB;
+}
+
+.signup-top {
+  border: none;
+}
+
+.img-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-hamster {
+  height: auto;
+  width: 400px;
+  border-radius: 15px 50px;
+}
+
+/* Main 2 */
+
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-header {
+  display: flex;
+  margin: 50px 0;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: 'Shippori Antique', sans-serif;
+  color: #1F2937;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.box-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.individual-img {
+  display: flex;
+}
+
+.sunflower-seed {
+  height: auto;
+  width: 160px;
+  border-radius: 25px;
+  border: 5px solid #3882F6;
+}
+
+.box-subtext {
+  display: flex;
+  width: 140px;
+  text-align: center;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+/* Main 3 */
+
+.main-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+  width: 750px;
+  color: #1F2937;
+}
+
+.author {
+  display: flex;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Courgette', cursive;
+  color: #1F2937;
+  margin-right: 20px;
+}
+
+/* Main 4 */
+
+.main-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 800px;
+  margin: 98px 0;
+  padding: 36px 50px;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.text-first {
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: 'M PLUS 2', sans-serif;
+  color: #F9FAF8;
+}
+
+.text-second {
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  color: #E5E7EB;
+}
+.signup-bottom {
+  border: 2px solid #F9FAF8;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  margin: 50px 0;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #E5E7EB;
+}
+
+/* Shared properties */
+
+.header, .footer {
+  background-color: #1F2937;
+}
+
+.signup-top, .signup-bottom {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 28px;
+  border-radius: 8px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+/* Shared classes */
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
