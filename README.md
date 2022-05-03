@@ -1,6 +1,6 @@
 # Odin Landing Page
 
-[Live on GitHub Pages](https://rivicodes.github.io/odin-landing-page/)
+### [Live on GitHub Pages 🚀](https://rivicodes.github.io/odin-landing-page/)
 
 _Basic, yet intuitive landing page made from scratch (sample pics aside). This project's objective is to replicate the sample picture in HTML5 & CSS from zero (again, some information was provided)._
 
